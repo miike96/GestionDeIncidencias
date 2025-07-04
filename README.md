@@ -146,4 +146,4 @@ Este proyecto está bajo licencia **MIT**. Consulta el archivo `LICENSE` para m�
 
 **Miguel López**  
 Desarrollador Java | Spring Boot | Frontend  
-📫 [LinkedIn](https://www.linkedin.com/in/miguel-lopez96)
+📫 [LinkedIn](https://www.linkedin.com/in/miguel-l%C3%B3pez-rodr%C3%ADguez-365710185/)
