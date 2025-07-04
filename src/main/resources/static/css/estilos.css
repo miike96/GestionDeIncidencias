@@ -1,0 +1,20 @@
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+th, td {
+    padding: 12px 18px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background: #1976d2;
+    color: #fff;
+}
+tr:hover {
+    background: #f1f1f1;
+}
