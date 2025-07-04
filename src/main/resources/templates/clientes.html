@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <link rel="stylesheet" th:href="@{/css/estilos.css}">
+  <title>Lista de Clientes</title>
+</head>
+<body>
+<h2>Clientes</h2>
+<table>
+  <thead>
+  <tr>
+    <th>#</th>
+    <th>Nombre</th>
+    <th>Email</th>
+    <th>Teléfono</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="cliente, iterStat : ${clientes}">
+    <td th:text="${iterStat.count}"></td>
+    <td th:text="${cliente.nombre}"></td>
+    <td th:text="${cliente.email}"></td>
+    <td th:text="${cliente.telefono}"></td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>
